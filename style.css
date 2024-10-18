@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #19a1ad;
+  background-image: url(bg-pattern-top.svg);
+  background-image: url(bg-pattern-bottom.svg) ;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kumbh Sans", sans-serif;
+
+}
+
+.img{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card{
+  background-color: white;
+  border-radius: 20px;
+}
+
+.profile-img{
+  margin-top: -45px;
+  justify-content: center;
+  display: flex;
+}
+
+.card-img{
+  height: 90px;
+  border: 5px solid white;
+  border-radius: 50px;
+  width: 90px;
+}
+
+h1{
+  font-size: 18px;
+  margin: 15px 0px 5px;
+  text-align: center;
+  color: #3b3b47;
+}
+
+span{
+  gap: 15px;
+  color: #afafaf;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+p{
+  text-align: center;
+  color: #838383 ;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+hr{
+  margin-top: 35px;
+  border-color: #ffffffee;
+}
+
+.follower-cont{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+h2{
+  font-size: 18px;
+  text-align: center;
+  color: #3b3b47;
+}
+
+.para{
+  font-size: 12px;
+  margin-top: 2px;
+}
